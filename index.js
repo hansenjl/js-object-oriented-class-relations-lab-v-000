@@ -33,7 +33,7 @@ class Trip{
 
   driver(){
     console.log(this)
-    return store.drivers.find(function(driver){
+    return store.drivers.find((driver) => {
       console.log(this)
       return driver.id === this.driverId
     })
