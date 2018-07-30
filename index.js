@@ -20,7 +20,7 @@ class Passenger{
   }
   
   drivers(){
-    return store.filter()
+    return store.drivers.filter()
   }
 }
 
