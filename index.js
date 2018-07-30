@@ -19,8 +19,8 @@ class Passenger{
     store.passengers.push(this)
   }
   
-  drivers(){
-    return store.drivers.filter()
+  trips(){
+    return store.trips.filter()
   }
 }
 
