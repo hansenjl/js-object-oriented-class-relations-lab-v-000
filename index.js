@@ -18,6 +18,10 @@ class Passenger{
     this.name = name
     store.passengers.push(this)
   }
+  
+  drivers(){
+    return store.filter()
+  }
 }
 
 //join table model 
