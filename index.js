@@ -30,8 +30,9 @@ class Trip{
     }
     store.trips.push(this)
   }
-  
+  console.log(this)
   driver(){
+    console.log(this)
     return store.drivers.find(function(driver){
       console.log(this)
       return driver.id === this.driverId
