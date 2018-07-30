@@ -33,6 +33,11 @@ class Passenger{
     return store.trips.filter(trip =>
     trip.passengerId === this.id)
   }
+  
+  drivers(){
+    return this.trips().map(trip => {
+    return trip.driver()})
+  }
 }
 
 //join table model 
